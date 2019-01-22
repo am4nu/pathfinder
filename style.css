@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body {
+
+
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #315170;
+    background-color: #d4d4dd
+    
+
+}
+
+/*---navbar scrolling offest*/
+.offset:before {
+height: 4rem;
+margin-top:-4rem;
+content:"";
+display:block;
+
+}
+/*--extra bootstrap column padding --*/
+[class*="col-"]{
+padding: 1 rem;
+
+}
+
+img.roun{
+
+   width:2rem;
+   height:1.75rem;
+}
+
