@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
     color: #315170;
-    background-color: #d4d4dd
+    background-color: #4d4d4e
     
 
 }
@@ -26,7 +26,11 @@ padding: 1 rem;
 
 img.roun{
 
-   width:2rem;
-   height:1.75rem;
+   width:3rem;
+   
+}
+img.roun2{
+
+    width:8rem;
 }
 
