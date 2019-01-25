@@ -20,17 +20,47 @@ display:block;
 }
 /*--extra bootstrap column padding --*/
 [class*="col-"]{
-padding: 1 rem;
+padding: 1rem;
 
+}
+.navbar {
+
+    padding: 0rem 0rem;
+    font-size: 1.25rem;
+    background:rgba(139, 139, 139, .6)!important;
+    transition:background-color .5s ease 0s;
+   
+}
+.svg-inline--fa.fa-w-14{
+    color:white;
+    font-size:1.4rem;
+}
+.navbar-nav li{
+
+    padding-right:1.7rem;
+}
+.navbar-nav .nav-link {
+
+    color:rgb(152, 219, 27);
+    padding-top:.5rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+    color:rgb(79, 178, 243)
+}
+.navbar.solid{
+
+    background:rgba(139, 139, 139, 0.4)!important;
+    transition: background-color 1s ease 0s;
 }
 
 img.roun{
 
-   width:3rem;
+   width:5rem;
    
 }
 img.roun2{
 
-    width:8rem;
+    width:12rem;
 }
 
