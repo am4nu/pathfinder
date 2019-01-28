@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
     color: #315170;
-    background-color: #4d4d4e
+  
     
 
 }
@@ -27,8 +27,8 @@ padding: 1rem;
 
     padding: 0rem 0rem;
     font-size: 1.25rem;
-    background:rgba(139, 139, 139, .6)!important;
-    transition:background-color .5s ease 0s;
+    background:rgba(0, 0, 0, 0.6)!important;
+  
    
 }
 .svg-inline--fa.fa-w-14{
@@ -41,7 +41,7 @@ padding: 1rem;
 }
 .navbar-nav .nav-link {
 
-    color:rgb(152, 219, 27);
+    color:rgb(255, 255, 255);
     padding-top:.5rem;
 }
 .navbar-nav .nav-link.active,
@@ -50,7 +50,7 @@ padding: 1rem;
 }
 .navbar.solid{
 
-    background:rgba(139, 139, 139, 0.4)!important;
+    background:rgba(0, 0, 0, 0.9)!important;
     transition: background-color 1s ease 0s;
 }
 
@@ -61,6 +61,33 @@ img.roun{
 }
 img.roun2{
 
-    width:12rem;
+    width:16rem;
 }
 
+.home-inner{
+
+
+    background-image: url('img/book1.jpg');
+    
+   
+}
+
+.caption {
+
+
+    width:100%;
+    max-width:100%;
+    position: absolute;
+    top:60%;
+    z-index:1;
+    
+}
+h1.h1size{
+    color:rgb(184, 247, 255);
+    
+}
+.btn-lg{
+    font-size:25px;
+    border-width:medium;
+    border-radius: 45%;
+}
