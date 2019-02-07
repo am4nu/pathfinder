@@ -11,9 +11,9 @@ $(document).ready(function(){
             $('.navbar').removeClass('solid');
         }
     });
-});
 
-$(document).ready(function(){
+
+
     $(document).click(function (event){
 
         var clickover=$(event.target);
@@ -24,9 +24,9 @@ $(document).ready(function(){
         }
     });
 
-});
 
-$(document).ready(function(){
+
+
     // Add scrollspy to <body>
     //$('body').scrollspy({target: ".navbar", offset: 50});   
   
@@ -51,4 +51,49 @@ $(document).ready(function(){
         });
       }  // End if
     });
-  });
+$("#team-slider").owlCarousel(
+{
+
+  items:3,
+  autoplay:true,
+  smartspeed:700,
+  loop:true,
+  autplayHowerPause:true,
+  responsive:
+  {
+    0:{
+       items:1
+    },
+    576:{
+      items:2
+    },
+    768: {
+
+      items:3
+    }
+  }
+});
+
+ 
+  
+if($(window).width() <=320){
+
+  window.location.href = "error/error.html";
+}
+
+    if ( $(window).width() <=720) {      
+      $(".hero-image").css({"height": "30rem"});
+      
+    } 
+
+  if ( $(window).width()>720 && $(window).width()<1080) {      
+    $(".hero-image").css({"height": "80rem"});
+    
+  } 
+  if ( $(window).width() >=720) // for the pathfinder name logo on navbar
+  {
+    $(".roun2").css({"height":"4rem","width":"16rem"});
+  }
+
+
+});

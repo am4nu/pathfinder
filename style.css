@@ -54,21 +54,22 @@ padding: 1rem;
     transition: background-color 1s ease 0s;
 }
 
-img.roun{
+.roun{
 
    width:5rem;
    
 }
-img.roun2{
+.roun2{
 
-    width:16rem;
+  height:3.5rem;
+  width:10rem;
 }
 
 .home-inner{
 
-
-    background-image: url('img/book1.jpg');
-    
+    background-blend-mode: color-dodge;
+    background-size: contain;
+    background-image: url('img/something.jpg');
    
 }
 
@@ -83,11 +84,93 @@ img.roun2{
     
 }
 h1.h1size{
-    color:rgb(184, 247, 255);
+    color:rgb(155, 252, 117);
     
 }
 .btn-lg{
-    font-size:25px;
+    font-size:1.5rem;
     border-width:medium;
     border-radius: 45%;
+    padding: .8rem 1.5rem;
+   
 }
+.hero-image {
+    background-image: url("img/hi.jpg");
+    background-color: #ffffff;
+    height: 145rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+
+  feature {
+	text-align: center;
+}
+.feature .fa-layers {
+	color: #1ebba3;
+	margin: 0 auto;
+	width: 3.9rem;
+	height: 6rem;
+}
+.feature h3 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-bottom: .4rem;
+}
+.feature p {
+	font-size: 1.1rem;
+}
+
+/*============= FIXED BACKGROUND IMG DARK =============*/
+#fixed-2 {
+	background-image: url('img/book1.jpg');
+	z-index: -1;
+}
+.light {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 3rem 2rem 2rem;
+	z-index: 1000!important;
+}
+.card {
+	border-radius: 0;
+	border: .1rem solid rgba(0, 0, 0, .075);
+	box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+	margin: 0 1rem;
+	transition: transform .4s ease;
+}
+.card-img-top {
+	border-radius: 0;
+}
+.card:hover {
+	transform: scale(.95);
+}
+.card h4 {
+	font-weight: 700;
+}
+.card h5 {
+	color: #1ebba3;
+}
+.card p {
+	border-top: .1rem solid rgba(0, 0, 0, .1);
+	border-bottom: .1rem solid rgba(0, 0, 0, .1);
+	padding: 1rem;
+	margin: 1rem 0 1.5rem;
+}
+.card svg.svg-inline--fa {
+	color: #1ebba3!important;
+	font-size: 1.3rem;
+	width: 2rem;
+}
+.card svg.svg-inline--fa:hover {
+	color: #6c757d!important;
+}
+.owl-dot.active span,
+.owl-dot:hover span {
+	background: #1ebba3!important;
+}
+.narrow{
+padding-top: 2rem;
+}
+
+  
